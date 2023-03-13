@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  .display {
+    height: calc(59.5px - 5px);
+    padding: 5px;
+    margin: 0;
+    font-size: 1.5rem;
+    background: rgb(222, 215, 215);
+    width: calc(100% - 59.5px - 15px);
+    position: absolute;
+    line-height: height;
+    overflow-y: scroll;
+  }
+  
+  .buttons {
+    display: flex; 
+  }
+
+  .buttons .calcButton {
+    height: 59.5px;
+  }
+  
+  .calculator {
+    width: 250px;
+    border: 1px solid black;
+    padding: 5px;
+    position: relative;
+  }
+  
+  .numbers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+   }
+  
+  .numbers .calcButton {
+    width: 59.5px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px border black;
+  }
+  
+  .operators {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .parenthesis {
+    width: 29.75px !important;
+    display: flex;
+    flex-direction: column;
+    background: orange !important;
+    border-top: 1px border black;
+    
+    border-bottom: 1px border black;
+    border-right: 1px border black;
+    border-left: 1px border black;
+
+  }
+  .parenthesis:hover {
+    background: white !important;
+    cursor: pointer;
+  }
+
+  .operators .calcButton {
+    width: 59.5px;
+    background: orange;
+    border-top: 1px border black;
+    border-bottom: 1px border black;
+    border-right: 1px border black;
+    border-left: 1px border black;
+  }
+
+  
+  .operators .calcButton:hover {
+    background: white;
+    cursor: pointer;
+  }
+  
+  .calcButton {
+    border-radius: 0;
+    background: none;
+    position: relative;
+    background: white;
+    }
+    .calcButton:hover {
+        background: rgb(249, 250, 136);
+        cursor: pointer;
+      }
+    
+      .calcButton span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+  
+  #clear {
+    display: block;
+    width: 59.5px;
+    height: 59.5px;
+    margin-left: auto;
+    border: 1px border black;
+  }
+  
+  .other {
+    display: flex;
+  }
+  
+   #evaluate {
+    width: 100%;
+    height: 59.5px;
+    border: 1px border black;
+  }
+  

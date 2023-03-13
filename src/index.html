@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculatrice</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <section class="calculator">
+    <p id="display" class="display onDisplay">0</p>
+    <button id="clear" class="calcButton calcButton16"><span>C</span></button>
+    <div class="buttons">
+      <div class="numbers">
+        <button id="1" class="calcButton calcButton1 number" data-value="1"><span>1</span></button>
+        <button id="2" class="calcButton calcButton2 number" data-value="2"><span>2</span></button>
+        <button id="3" class="calcButton calcButton3 number" data-value="3"><span>3</span></button>
+        <button id="4" class="calcButton calcButton4 number" data-value="4"><span>4</span></button>
+        <button id="5" class="calcButton calcButton5 number" data-value="5"><span>5</span></button>
+        <button id="6" class="calcButton calcButton6 number" data-value="6"><span>6</span></button>
+        <button id="7" class="calcButton calcButton7 number" data-value="7"><span>7</span></button>
+        <button id="8" class="calcButton calcButton8 number" data-value="8"><span>8</span></button>
+        <button id="9" class="calcButton calcButton9 number" data-value="9"><span>9</span></button>
+        <button id="0" class="calcButton calcButton0 number" data-value="0"><span>0</span></button>
+        <button id="point" class="calcButton calcButton10" data-value="."><span>.</span></button>
+        <button id="pouv" class="parenthesis calcButton" data-value='('><span>(</span></button>
+        <button id="pfer" class="parenthesis calcButton" data-value=')'><span>)</span></button>
+        </div>
+      <div class="operators">
+        <button id="plus" class="calcButton calcButton12" data-value='+'><span>&plus;</span></button>
+        <button id="moins" class="calcButton calcButton13" data-value='-'><span>&minus;</span></button>
+        <button id="mult" class="calcButton calcButton14" data-value='*'><span>&times;</span></button>
+        <button id="div" class="calcButton calcButton15" data-value='/'><span>&divide;</span></button>
+      </div>
+    </div>
+    <div class="other">
+      <button id="evaluate" class="calcButton calcButton17"><span>=</span></button>
+    </div>
+
+  </section>
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>
